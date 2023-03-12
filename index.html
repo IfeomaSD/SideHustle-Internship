@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 1 Task</title>
+    <link rel="stylesheet" href="style.css">
+
+          5. Display a success message on successful submission
+</head>
+<body>
+    <div>
+        <p class="success_text">
+            Success!
+        </p>
+    <form method="*">
+        <fieldset>
+            <legend>Biodata</legend>
+            <label for="fullname">Fullname</label>
+            <input type="text" name="fullname" id="fullname">
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="phone">Phone number</label>
+            <input type="number" name="phone" id="phone">
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+
+            <label for="male">Male</label>
+            <input type="checkbox" name="gender" id="male" value="male">
+            <label for="female">Female</label>
+            <input type="checkbox" name="gender" id="female" value="female">
+
+
+            <button class="btn" onclick="changeColor()">Submit</button>
+        </fieldset>
+    </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
