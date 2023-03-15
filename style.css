@@ -19,34 +19,30 @@ margin-top: 30px;
 display: block;
 }
 
-#fullname, #password, #email, #phone{
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"]{
     border: 2px dotted blue;
    padding: 8px 8px;
    margin: 10px auto;
 }
 
+    label[for="male"],
+    label[for="female"]{
+        display: inline-block;
+      }
+
 .btn {
     display: block;
     background-color: aquamarine;
     color: blue;
-    padding: 6px 8px;
+    padding: 8px 8px;
     border-radius: 8px;
     cursor: pointer;
 }
 
 .btn:hover {
     background-color: beige;
-}
-
-#success-message {
-    display: none;
-}
-#success-message.show {
-    display: block;
-}
-.success_text {
-    text-align: center;
-    font-weight: bolder;
-    color: blue;
-    display: none;
 }

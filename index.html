@@ -8,11 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <p class="success_text">
-            Success!
-        </p>
-    <form method="*">
+
+    <form method="*" onsubmit="formSubmit()">
         <fieldset>
             <legend>Biodata</legend>
             <label for="fullname">Fullname</label>
@@ -22,21 +19,22 @@
             <input type="email" name="email" id="email" required>
 
             <label for="phone">Phone number</label>
-            <input type="number" name="phone" id="phone">
-
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password">
+            <input type="tel" name="phone" id="phone"><br/>
 
             <label for="male">Male</label>
             <input type="checkbox" name="gender" id="male" value="male">
             <label for="female">Female</label>
             <input type="checkbox" name="gender" id="female" value="female">
 
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
 
-            <button class="btn" onclick="changeColor()">Submit</button>
+         
+
+
+            <button class="btn">Submit</button>
         </fieldset>
     </form>
-    </div>
     <script src="script.js"></script>
 </body>
 </html>
