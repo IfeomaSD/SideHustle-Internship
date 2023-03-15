@@ -1,48 +1,56 @@
-body{
-    background-color: black;
-    color: white;
+body {
+  background-color: whitesmoke;
+  color: blue;
+  font-size: larger;
+  font-weight: 600;
 }
 
 form {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+fieldset {
+  background-image: url("floral-design.png");
 }
 
 legend {
-    box-sizing: border-box;
-    color: blue;
+  box-sizing: border-box;
+  color: blue;
 }
 
-label{
-position: relative;
-margin-top: 30px;
-display: block;
+label {
+  position: relative;
+  margin-top: 30px;
+  display: block;
 }
-
 
 input[type="text"],
 input[type="email"],
 input[type="tel"],
-input[type="password"]{
-    border: 2px dotted blue;
-   padding: 8px 8px;
-   margin: 10px auto;
+input[type="password"] {
+  background-color: aquamarine;
+  border: 2px dotted blue;
+  padding: 8px 8px;
+  margin: 10px auto;
 }
 
-    label[for="male"],
-    label[for="female"]{
-        display: inline-block;
-      }
+label[for="male"],
+label[for="female"] {
+  display: inline-block;
+}
 
 .btn {
-    display: block;
-    background-color: aquamarine;
-    color: blue;
-    padding: 8px 8px;
-    border-radius: 8px;
-    cursor: pointer;
+  display: block;
+  background-color: aquamarine;
+  color: blue;
+  font-size: large;
+  font-weight: 600;
+  padding: 8px 8px;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 .btn:hover {
-    background-color: beige;
+  background-color: beige;
 }
